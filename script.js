@@ -1,16 +1,16 @@
 const input = document.querySelector('input');
-const search = document.querySelector('label');
+const add = document.querySelector('button');
 const second = document.getElementById('second');
-search.addEventListener('click',()=>{
+add.addEventListener('click',()=>{
 
          const task = input.value;
          const h1 = document.createElement('h1');
-         const inp = document.createElement('input');
+         const div = document.createElement('div');
          const seperator = document.createElement('hr');
-         inp.type = "checkbox";
-         h1.innerText = h1;
-         second.innerHTML = h1;
+         h1.innerText = task;
+        div.append(h1)
          input.value = "";
+         document.querySelector('body').appendChild(div);
          
 })
 
