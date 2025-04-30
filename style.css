@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0);
+}
+
+.my{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.in{
+    /* height: 8vh; */
+    width: 30vw;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 5px;
+}
+
+button{
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 5px;
+    background-color: antiquewhite;
+    color: rgb(11, 50, 50);
+    cursor: pointer;align-items: center;
+}
+
+.h1{
+    color: white;
+    background-color: rgb(32, 21, 7);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+

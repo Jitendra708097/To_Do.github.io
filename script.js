@@ -5,6 +5,7 @@ add.addEventListener('click',()=>{
 
          const task = input.value;
          const h1 = document.createElement('h1');
+         h1.className = "h1";
          const div = document.createElement('div');
          const seperator = document.createElement('hr');
          h1.innerText = task;
