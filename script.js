@@ -7,13 +7,18 @@ add.addEventListener('click',()=>{
          const h1 = document.createElement('h1');
          h1.className = "h1";
          const div = document.createElement('div');
-         const seperator = document.createElement('hr');
+         div.className = "tasklist";
+         const checkbox = document.createElement('input');
+         checkbox.className = "checkbox";
+         checkbox.type = "checkbox";
          h1.innerText = task;
-        div.append(h1)
+        div.append(checkbox,h1)
          input.value = "";
-         document.querySelector('body').appendChild(div);
+         document.getElementById('first').appendChild(div);
+
          
-})
+});
+
 
 const date = new Date();
 const d1 = date.toLocaleDateString();
